@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="fontawesome-free/css/all.min.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	
+    <title>KiyaKiyo</title>
+  </head>
+  <body>
+  
+<nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+  
+    <a class="navbar-brand font-weight-bold" href="#">
+	<img src="img/slide/logo2.png" class="d-block w-100">
+	</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mr-4">
+	  
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Tentang Kami</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Produk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Galery</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Hubungi Kami</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+	  
+	  <div class="icon mt-2">
+	  <h5>
+	  <i class="fas fa-shopping-cart ml-3 mr-3"></i>
+	  <i class="fas fa-envelope mr-3"></i>
+	  <i class="fas fa-bell mr-3"></i>
+	  </h5>
+	  </div>
+  </div>
+</nav>
+</br>
+<div class="row mt-5 mr-10 no-gutters">
+	<div class="col-md-2 bg-light">
+		<ul class="list-group list-group-flush p-2 pt-3">
+		<li class="list-group-item bg-warning"><i class="fas fa-list"></i>Produk</li>
+		<li class="list-group-item">Mukena<i class="fas fa-angle-right"></i></li>
+		<li class="list-group-item">Gamis<i class="fas fa-angle-right"></i></li>
+		<li class="list-group-item">Aksesoris<i class="fas fa-angle-right"></i></li>
+		</ul>
+	</div>
+	<div class="col-md-10">
+		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+				<img src="img/slide/slide1.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+				<img src="img/slide/slide2.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+				<img src="img/slide/slide4.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+				<img src="img/slide/slide3.jpeg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Next</span>
+		</button>
+		</div>
+
+			<h4 class="text-center font-weight-bold">PRODUK TERBARU</h4>
+			<div class="row">
+				<div class="card" style="width: 18rem;">
+					<img src="img/produk/produk (1).jpeg" class="card-img-top" alt="...">
+						<div class="card-body bg-light">
+						<h5 class="card-title">Mukena Anak</h5>
+						<p class="card-text">Mukena Anak Motif Sakura Pink</p>
+						<a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#produk1" >Detail</a>
+						<a href="#" class="btn btn-danger mt-1">Rp. 55.000 - Rp. 105.000</a>
+						</div>
+				</div>
+				
+				<div class="card" style="width: 18rem;">
+					<img src="img/produk/produk (4).jpeg" class="card-img-top" alt="...">
+						<div class="card-body bg-light">
+						<h5 class="card-title">Mukena Anak</h5>
+						<p class="card-text">Mukena Anak Motif Sakura Kuning</p>
+						<a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#produk2" >Detail</a>
+						<a href="#" class="btn btn-danger mt-1">Rp. 55.000 - Rp. 105.000</a>
+						</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					<img src="img/produk/produk (3).jpeg" class="card-img-top" alt="...">
+						<div class="card-body bg-light">
+						<h5 class="card-title">Gamis Anak</h5>
+						<p class="card-text">Gamis Anak Motif Polcadot Grey</p>
+						<a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#produk3" >Detail</a>
+						<a href="#" class="btn btn-danger mt-1">Rp.75.000 - Rp. 110.000</a>
+						</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					<img src="img/produk/produk (2).jpeg" class="card-img-top" alt="...">
+					<div class="card-body bg-light">
+						<h5 class="card-title">Mukena Anak</h5>
+						<p class="card-text">Gamis Anak Motif Polcadot Light Blue</p>
+						<a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#produk4" >Detail</a>
+						<a href="#" class="btn btn-danger mt-1">Rp. 75.000 - Rp. 110.000</a>
+						</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					<img src="img/produk/produk (5).jpeg" class="card-img-top" alt="...">
+						<div class="card-body bg-light">
+						<h5 class="card-title">Mukena Anak</h5>
+						<p class="card-text">Mukena Anak Motif Flamengo</p>
+						<a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#produk5" >Detail</a>
+						<a href="#" class="btn btn-danger mt-1">Rp. 55.000 - Rp. 105.000</a>
+						</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="produk1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-lg">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				  </div>
+				  <div class="modal-body">
+						<div class="row">
+							<div class="col-md-6">
+								<img src="img/produk/produk (1).jpeg" class="d-block w-100">
+							</div>
+							<div class="col-md-6">
+								<table class="table table borderless">
+									<tr>
+										<th>Nama Produk</th>
+										<td>Mukena</td>
+									</tr>
+									<tr>
+										<th>Motif</th>
+										<td>Sakura</td>
+									</tr>
+									<tr>
+										<th>warna</th>
+										<td>Pink</td>
+									</tr>
+									<tr>
+										<th>Bahan</th>
+										<td>Katun</td>
+									</tr>
+									<tr>
+										<th>Ukuran</th>
+										<td>S / M / L / XL / XXL</td>
+									</tr>
+									<tr>
+										<th>Harga</th>
+										<td>Rp. 55.000 - Rp. 105.000</td>
+									</tr>		
+								</table>
+							</div>
+						</div>
+					</div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Back</button>
+					<button type="button" class="btn btn-primary">Beli</button>
+				  </div>
+				</div>
+			  </div>
+			</div>	
+
+			<div class="modal fade" id="produk2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-lg">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				  </div>
+				  <div class="modal-body">
+						<div class="row">
+							<div class="col-md-6">
+								<img src="img/produk/produk (4).jpeg" class="d-block w-100">
+							</div>
+							<div class="col-md-6">
+								<table class="table table borderless">
+									<tr>
+										<th>Nama Produk</th>
+										<td>Mukena</td>
+									</tr>
+									<tr>
+										<th>Motif</th>
+										<td>Sakura</td>
+									</tr>
+									<tr>
+										<th>warna</th>
+										<td>Kuning</td>
+									</tr>
+									<tr>
+										<th>Bahan</th>
+										<td>Katun</td>
+									</tr>
+									<tr>
+										<th>Ukuran</th>
+										<td>S / M / L / XL / XXL</td>
+									</tr>
+									<tr>
+										<th>Harga</th>
+										<td>Rp. 55.000 - Rp. 105.000</td>
+									</tr>		
+								</table>
+							</div>
+						</div>
+					</div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Back</button>
+					<button type="button" class="btn btn-primary">Beli</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+						<div class="modal fade" id="produk3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-lg">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				  </div>
+				  <div class="modal-body">
+						<div class="row">
+							<div class="col-md-6">
+								<img src="img/produk/produk (3).jpeg" class="d-block w-100">
+							</div>
+							<div class="col-md-6">
+								<table class="table table borderless">
+									<tr>
+										<th>Nama Produk</th>
+										<td>Gamis</td>
+									</tr>
+									<tr>
+										<th>Motif</th>
+										<td>Polcadot</td>
+									</tr>
+									<tr>
+										<th>warna</th>
+										<td>Grey</td>
+									</tr>
+									<tr>
+										<th>Bahan</th>
+										<td>Katun</td>
+									</tr>
+									<tr>
+										<th>Ukuran</th>
+										<td>S / M / L </td>
+									</tr>
+									<tr>
+										<th>Harga</th>
+										<td>Rp. 75.000 - Rp. 110.000</td>
+									</tr>		
+								</table>
+							</div>
+						</div>
+					</div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Back</button>
+					<button type="button" class="btn btn-primary">Beli</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+						<div class="modal fade" id="produk4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-lg">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				  </div>
+				  <div class="modal-body">
+						<div class="row">
+							<div class="col-md-6">
+								<img src="img/produk/produk (2).jpeg" class="d-block w-100">
+							</div>
+							<div class="col-md-6">
+								<table class="table table borderless">
+									<tr>
+										<th>Nama Produk</th>
+										<td>Gamis</td>
+									</tr>
+									<tr>
+										<th>Motif</th>
+										<td>Polcadot</td>
+									</tr>
+									<tr>
+										<th>warna</th>
+										<td>Light Blue</td>
+									</tr>
+									<tr>
+										<th>Bahan</th>
+										<td>Katun</td>
+									</tr>
+									<tr>
+										<th>Ukuran</th>
+										<td>S / M / L </td>
+									</tr>
+									<tr>
+										<th>Harga</th>
+										<td>Rp. 75.000 - Rp. 110.000</td>
+									</tr>		
+								</table>
+							</div>
+						</div>
+					</div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Back</button>
+					<button type="button" class="btn btn-primary">Beli</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+						<div class="modal fade" id="produk5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-lg">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				  </div>
+				  <div class="modal-body">
+						<div class="row">
+							<div class="col-md-6">
+								<img src="img/produk/produk (5).jpeg" class="d-block w-100">
+							</div>
+							<div class="col-md-6">
+								<table class="table table borderless">
+									<tr>
+										<th>Nama Produk</th>
+										<td>Mukena</td>
+									</tr>
+									<tr>
+										<th>Motif</th>
+										<td>Flamengo</td>
+									</tr>
+									<tr>
+										<th>warna</th>
+										<td>Pink</td>
+									</tr>
+									<tr>
+										<th>Bahan</th>
+										<td>Katun</td>
+									</tr>
+									<tr>
+										<th>Ukuran</th>
+										<td>S / M / L / XL / XXL</td>
+									</tr>
+									<tr>
+										<th>Harga</th>
+										<td>Rp. 55.000 - Rp. 105.000</td>
+									</tr>		
+								</table>
+							</div>
+						</div>
+					</div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Back</button>
+					<button type="button" class="btn btn-primary">Beli</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+	</div>
+</div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
+  
+  <footer class="bg-dark text-white p-5">
+	<div class="row">
+		<div class="col-md-3">
+			<h5>LAYANAN PELANGGAN</h5>
+			<ul>
+			<li>Pusat Bantuan</li>
+			<li>Cara Pembelian</li>
+			<li>Pengiriman</li>
+			<li>Cara Pengembalian</li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+		<h5>TENTANG KAMI</h5>
+		<p>
+		Ingatlah wahai para pengusaha dan pebisnis ulung, 
+		di sebagian harta yang engkau cari ada hak orang lain yang membutuhkannya. 
+		Oleh karena itu jangan sungkan untuk mengeluarkan sebagian dari penghasilanmu lewat Infaq, 
+		Zakat dan Sodaqah
+		</p>
+		</div>
+		<div class="col-md-3">
+		<h5>HUBUNGI KAMI</h5>
+		<ul>
+			<li>0853-2904-0402</li>
+			<li>kiyakiyo2017@gmail.com</li>
+		</ul>
+		</div>
+	</div>
+  </footer>
+  <div class="copyright text-center text-white font-weight-bold bg-warning p-3">
+  <p>
+  UTS PEMROGRAMAN WEB
+  </p>
+  <p>
+  FAJAR ARIYANTO (18.01.53.2085)
+  </p>
+  
+  </div>
+</html>
